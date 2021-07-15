@@ -10,8 +10,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.devsuperior.dsvendas.Sale;
-
 @Entity
 @Table(name = "tb_sellers")
 public class Seller {

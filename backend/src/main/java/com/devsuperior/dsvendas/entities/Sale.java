@@ -1,4 +1,4 @@
-package com.devsuperior.dsvendas;
+package com.devsuperior.dsvendas.entities;
 
 import java.time.LocalDate;
 
@@ -9,8 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-import com.devsuperior.dsvendas.entities.Seller;
 
 @Entity
 @Table(name = "tb_sales")
